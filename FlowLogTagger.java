@@ -11,9 +11,9 @@ public class FlowLogTagger {
     private static final String UNTAGGED = "Untagged";
 
     public static void main(String[] args) throws IOException {
-        String lookupFile = "src/lookup_table.csv";
-        String flowLogFile = "src/flow_log.txt";
-        String outputFile = "src/output_results.txt";
+        String lookupFile = "lookup_table.csv";
+        String flowLogFile = "flow_log.txt";
+        String outputFile = "output_results.txt";
 
         // Load lookup data
         loadLookupData(lookupFile);
