@@ -12,7 +12,7 @@ This program processes flow log data by tagging each entry based on a `dstport` 
 1. **Protocol Codes**:
    - `6` represents `tcp`.
    - `17` represents `udp`.
-   - '1' represents 'icmp'
+   - `1` represents `icmp`.
    - Other values are mapped to `"other"` for protocols.
 2. **Untagged Entries**: If no tag is found for a given `dstport` and `protocol` combination, it is categorized as `Untagged`.
 3. **Case Insensitivity**: Matching for `dstport` and `protocol` is case-insensitive.
